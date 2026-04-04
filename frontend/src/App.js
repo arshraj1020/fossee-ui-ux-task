@@ -8,8 +8,15 @@ function App() {
     <div>
       <Navbar />
 
-      <h1 style={{ textAlign: "center", marginTop: "20px" }}>
-        Workshops
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "30px",
+          fontSize: "32px",
+          fontWeight: "bold",
+        }}
+      >
+        Explore Workshops
       </h1>
 
       <div className="workshop-container">
