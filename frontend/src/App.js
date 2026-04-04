@@ -1,11 +1,16 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 import WorkshopCard from "./components/WorkshopCard";
 
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Workshops</h1>
+      <Navbar />
+
+      <h1 style={{ textAlign: "center", marginTop: "20px" }}>
+        Workshops
+      </h1>
 
       <div className="workshop-container">
         <WorkshopCard title="Python Workshop" />
